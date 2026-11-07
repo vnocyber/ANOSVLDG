@@ -1,0 +1,38 @@
+
+{
+  "name": "anosvldg",
+  "version": "1.0.0",
+  "description": "ANOSVLDG Personal Baileys Library",
+  "type": "module",
+  "main": "./index.js",
+  "module": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "baileys": "7.0.0-rc14"
+  },
+  "license": "MIT",
+  "keywords": [
+    "anosvldg",
+    "baileys",
+    "whatsapp",
+    "multi-device"
+  ]
+}
