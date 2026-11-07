@@ -2,7 +2,7 @@
 {
   "name": "anosvldg",
   "version": "1.0.0",
-  "description": "ANOSVLDG Personal Baileys Library",
+  "description": "ANOSVLDG Personal WhatsApp Web API Library",
   "type": "module",
   "main": "./index.js",
   "module": "./index.js",
@@ -16,11 +16,12 @@
   "files": [
     "index.js",
     "index.d.ts",
+    "src",
     "README.md",
     "LICENSE"
   ],
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=20.19.0"
   },
   "scripts": {
     "test": "node --test"
@@ -33,6 +34,7 @@
     "anosvldg",
     "baileys",
     "whatsapp",
+    "whatsapp-web",
     "multi-device"
   ]
 }
